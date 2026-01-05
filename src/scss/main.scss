@@ -16,6 +16,7 @@ video {
 body {
   padding: 100px;
   background: var(--lavender, #c4d2f5);
+  font-family: Inter;
 }
 
 .player {
@@ -29,4 +30,23 @@ body {
   border-radius: 20px;
   background: var(--white, #fff);
   box-shadow: 0 0 0 20px rgba(255, 254, 254, 0.15);
+}
+
+.player-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-track-title {
+  color: var(--black, #000);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.player-track-artist {
+  color: var(--gray, #909090);
+  font-size: 15px;
+  font-weight: 700;
 }
