@@ -12,3 +12,21 @@ img,
 video {
   display: block;
 }
+
+body {
+  padding: 100px;
+  background: var(--lavender, #c4d2f5);
+}
+
+.player {
+  display: flex;
+  width: 440px;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 20px;
+  background: var(--white, #fff);
+  box-shadow: 0 0 0 20px rgba(255, 254, 254, 0.15);
+}
