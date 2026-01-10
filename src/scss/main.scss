@@ -81,3 +81,18 @@ audio {
   color: var(--gray, #909090);
   font-size: 15px;
 }
+.player-button {
+  display: flex;
+  width: 74px;
+  height: 74px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 37px;
+  background: var(--purple, #e783bc);
+}
+
+.player-button i {
+  color: var(--white, #fff);
+  font-size: 20px;
+}
